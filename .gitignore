@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Conda
+.conda/
+conda-meta/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Secrets / config local
+.env
+.env.*
+!.env.example
+
+# Logs y temporales
+*.log
+tmp/
+temp/
+
+# Artefactos del proyecto/juego
+pygomas_stats.txt
+*.replay
